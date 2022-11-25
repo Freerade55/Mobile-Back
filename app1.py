@@ -18,9 +18,9 @@ CORS(app)
 def connect_db():
     return pymysql.connect(
     host="mysql104.1gb.ru",
-    user="gb_camera",
-    password="FTwaEzf-xNdL",
-    database = "gb_camera",
+    user="",
+    password="",
+    database = "",
     cursorclass = pymysql.cursors.DictCursor
     )
 
